@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Work+Sans:wght@300&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(19, 10, 10);
+    color: aliceblue;
+}
+.brand img {
+    width: 60px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 0;
+    padding-right: 20px;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+ }
+ .bottem{
+    position: sticky;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column ;
+   
+ } 
+ i{
+height: 30px;
+ }
+ .container{
+    min-height: 70vh; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+     border-radius: 20px;
+     padding: 34px;
+     background-image: url('./imggg/bg4.jpg');
+    background-position-x: 300px;
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    
+ }
+ .icons i{
+    cursor: pointer;
+       padding: 20px;
+
+ }
+ .icons{
+    margin-top: 7px;
+ }
+ #myprogressbar{
+  width: 75vw;
+  cursor: pointer;     
+ }
+ .songitem{
+    height: 40px;
+    display: flex;
+    width: 500px;
+    height: 60px;
+    color: white;
+    background-color: rgb(37, 18, 18);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    margin: 15px;
+ }
+ .songitem:hover{
+
+    box-shadow: rgb(32, 27, 27) 0px 5px 15px;
+ }
+ .timespn{
+margin: 0 10px;
+
+ 
+ } 
+ .timespn i{
+    cursor: pointer;
+ }
+ .songitem img{
+    width: 45px;
+    margin: 0 13px;
+    border-radius: 10px;
+ }
+
+ .songitemcontainer{
+    margin-top: 84px;
+ }
+ .infosong{
+position: absolute;
+left: 10vw;
+
+color: white;
+font-size: large;
+
+width: 400px;
+display: flex;
+padding-top: 10px;
+margin-top: 40px;
+ }
+ .infosong img{
+height: 50px;
+width: 100px;
+margin: 5px;
+
+ }
+ .infosong div{
+
+width: 300px;
+padding: 15px;
+margin-left: 40px;
+
+ }
+ .infosong img{
+ opacity: 0;
+ transition: opacity 0.3s ease-in;
+}
